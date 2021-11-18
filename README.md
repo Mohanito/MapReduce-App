@@ -24,5 +24,6 @@ A Hadoop MapReduce application to find the maximum temperature in every day of t
 
 ## Manually clean up CRLF to LF for Hadoop java exception
 https://stackoverflow.com/questions/43048654/hadoop-python-subprocess-failed-with-code-127
+    
     sed -i -e 's/\r$//' mapper.py
     sed -i -e 's/\r$//' reducer.py
