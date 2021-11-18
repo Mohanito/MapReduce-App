@@ -11,7 +11,7 @@ date = None
 for line in sys.stdin:
     # remove leading and trailing whitespace
     line = line.strip()
-    # slpiting the data on the basis of tab we have provided in mapper.py
+    # spliting the data on the basis of tab we have provided in mapper.py
     date, temperature = line.split('\t', 1)
     # convert temperature (currently a string) to int
     try:
